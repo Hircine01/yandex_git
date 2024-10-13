@@ -4,7 +4,7 @@
 
 * настраиваем конфиг:
 
-- git config --global user.name <name>  #задаем имя
+- git config --global user.name <you_name>  #задаем имя
 
 - git config --global user.email <you_email>  #пишем свой email
 
@@ -23,9 +23,13 @@
 
 ---
 
-#Пушим на GitHub
+# Пушим на GitHub
 
 1. Регистрируем аккаунт на GitHub
+
+* На локальном хосте генерим ssh ключ: ssh-keygen
+
+* Привязываем публичный ключ к аккаунту GitHub
 
 2. Создаем репозиторий
 
